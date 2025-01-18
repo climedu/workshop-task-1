@@ -1,5 +1,5 @@
 # workshop-task-1
-Here is a URL to the webpage for this project: https://climedu.github.io/workshop-task-1/
+Here is a URL to the webpage for this project: [link]( https://climedu.github.io/workshop-task-1/)
 
 ## Task
 - Make a p5.js sketch using 2D primitive shapes, loops, and random numbers.
@@ -76,10 +76,13 @@ Making the colours red and green based on odd and even colour
 Learning the odd and even from this web :  https://editor.p5js.org/togekisse/sketches/eQ3hatG0f
 
 - Struggle -> don't know how to put the organize since there will be "for" 1 for the geometry set up to add 1 every 50 (
-	  for (x=0;  x < width; x += 50){
+
+  ```ruby
+    for (x=0;  x < width; x += 50){
 	    geometry(x, centerY, random(0,200), color("green"));
 	  }) and needed another for the odd and even number.
 - Asked chat gpt, and came out a code with this difference "
+  ```ruby
 	  for (let i = 0; i < 9; i++) {
 	    let x = i * 50; // Calculate the x position
 	    let colorChoice = (i % 2 === 0) ? color("green") : color("red"); // Alternate colors
